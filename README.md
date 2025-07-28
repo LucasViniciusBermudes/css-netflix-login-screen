@@ -4,7 +4,7 @@ Este projeto é uma recriação da tela de login da **Netflix**, feita com **HTM
 
 ## 📁 Estrutura de Pastas
 
- `index.html`: estrutura da tela de login.
+- `index.html`: estrutura da tela de login.
 - `styles.css`: responsável por toda a estilização, responsividade e sobreposição de cores.
 - `components/images`: imagens utilizadas no fundo, logotipo e favicon.
 
@@ -13,7 +13,7 @@ Este projeto é uma recriação da tela de login da **Netflix**, feita com **HTM
 - Fundo escuro com **imagem coberta por overlay translúcido**
 - Layout centralizado e responsivo com **formulário de login**
 - Estilização fiel à **interface da Netflix**
-- Efeitos `:hover` e `:before` aplicados para enriquecer o visual
+- Efeitos `:hover` e `::before` aplicados para enriquecer o visual
 
 ## 🧰 Tecnologias
 
@@ -22,6 +22,14 @@ Este projeto é uma recriação da tela de login da **Netflix**, feita com **HTM
 
 ## 🚀 Como usar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/netflix-login.git
+```bash
+# 1. Clone o repositório
+git clone https://github.com/LucasViniciusBermudes/css-netflix-login-screen.git
+
+# 2. Acesse a pasta do projeto
+cd css-netflix-login-screen
+
+# 3. Abra o arquivo no navegador
+start index.html      # Windows
+open index.html       # macOS
+xdg-open index.html   # Linux
